@@ -1,0 +1,15 @@
+Source: python3-pybox
+Priority: optional
+Maintainer: Matthias Kruk <m@m10k.eu>
+Build-Depends: debhelper (>= 11~), dh-python, python3-all, python3-setuptools, python3
+X-Python3-Version: >= 3.0
+Section: shells
+Homepage: https://m10k.eu/toolbox.html
+
+Package: python3-pybox
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: toolbox
+Description: Toolbox library for Python
+ This package contains modules for interacting with bash scripts written
+ using the toolbox framework.
